@@ -1,0 +1,30 @@
+{
+  "name": "angular2-tour-of-heroes",
+  "version": "1.0.0",
+  "description": "Simple app using Angular2 and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botello/angular2-tour-of-heroes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/botello/angular2-tour-of-heroes/issues"
+  },
+  "homepage": "https://github.com/botello/angular2-tour-of-heroes#readme",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.44",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+}
